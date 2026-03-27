@@ -1,0 +1,1 @@
+Have YOU ever wanted to click on durski? Well here is DRUSKI CLICKER the BEST cookie clicker copy ON THE MARKET. inside of this game you get to click on druski and buy items on teh shop to make MORE money. BASIVALLY CAPITLISM IN GITHUB PAGE. Have fun and click away and get hella money
