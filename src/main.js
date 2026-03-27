@@ -53,11 +53,11 @@ function createShopItems() {
         shopItem.className = "shop-item";
 
         shopItem.innerHTML = `
-        <div>
-            <h3>${item.name}</h3>
-            <p>${item.desc}</p>
+        <div class="m-2 p-2">
+            <h3 class="text-3xl font-extrabold font-sans text-slate-950 p-3">${item.name}</h3>
+            <p class=" font-light font-serif italic ">${item.desc}</p>
         </div>
-        <button onclick="buyItem('${item.name}')">
+        <button onclick="buyItem('${item.name}')" class="bg-red-400/30 border-dashed border-2 border-emerald-400 p-3 m-5">
             Buy $${item.cost}
         </button>
         `;

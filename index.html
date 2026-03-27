@@ -3,24 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Clicker Game</title>
+    <title>Druski Clicker</title>
+    <link rel="icon" type="image/jpg" href="/druski.jpg">
+
   </head>
-  <body class="">
-    <main class=" flex flex-col justify-center items-center bg-slate-200 w-full h-screen">
-      <section class="grid grid-cols-3 items-start w-full "> 
-        <aside class="stats-panel  p-20 gap-20">
-        </aside>
+  <body class=" bg-[url('/roblox.jpg')] bg-cover bg-center bg-no-repeat backdrop-blur-[3px] min-w-screen h-screen">
+    <main class=" gap-x-20 flex flex-row justify-center items-center min-w-screen h-screen">
+      <aside class="shop-panel w-50 bg-red-100/50 backdrop-blur-2xl shawdow-2xl border-l border-6 border-pink-600"></aside>
 
-        <section class="text-center min-w-[90%] min-h-[90%]">
-          <button id="click-button" class=" border-none cursor-pointer hover:brightness-80">
-            <img src="trans noob.png" alt="Roblox noob" class="w-full"/>
+        <div class="flex flex-1 flex-col items-center justify-center gap-6 bg-white/25">
+          <button id="click-button" class=" border-black border-4 rounded-full cursor-pointer hover:brightness-85 hover:scale-110">
+            <img src="druski.jpg" alt="Roblox noob" class="w-auto h-[30vh] bg-amber-50 rounded-full"/>
           </button>
-        </section>
-
-        <aside class="shop-panel"></aside>
-      </section>
-      
-      <p class="font-extrabold text-2xl">Money: $<span id="click-count">0</span></p>
+          <p class="font-extrabold text-2xl">Money: $<span id="click-count">0</span></p>
+        </div>
+        
+        
+        
     </main>
   <!-- don't touch --> 
     <script type="module" src="/src/main.js"></script>
