@@ -3,7 +3,7 @@ import './style.css'
 const button = document.getElementById("click-button");
 const count = document.getElementById("click-count");
 const shopContainer = document.querySelector(".shop-panel")
-
+let itemsOwned = []
 
 let totalClickCount = 0
 
